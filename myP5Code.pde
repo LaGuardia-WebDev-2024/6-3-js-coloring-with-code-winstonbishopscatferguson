@@ -1,23 +1,23 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(106,159,241);
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(225,225,225);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+  fill(143,97,11)
   // The ground
   rect(0, 300, 400, 100);  
-
+  fill(244,215,85)
   // The sun
   ellipse(80, 64, 100, 100);  
-
+fill(229,201,222)
   // The snowman
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
